@@ -1,0 +1,16 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    },
+    "autoload": {
+        "psr-0": {
+            "Controllers\\": "controllers/",
+            "Library\\": "library/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
